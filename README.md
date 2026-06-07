@@ -1,7 +1,19 @@
 # Portfolio Analysis Tool (Python)
 
 # Overview
-This project is a portfolio analytics tool built in Python using real ETF market data. It analyses risk, return, and correlation between different asset classes to assess diversification.
+This project is a Python-based portfolio analysis tool that uses real ETF market data to evaluate risk, return, and diversification across asset classes. It is designed to replicate basic workflows used in investment risk analysis.
+
+# Objective
+To understand how different asset classes behave relative to each other and how diversification reduces portfolio risk.
+
+# Methodology
+Collected historical price data for ETFs using yfinance
+Calculated daily percentage returns
+Measured: 
+ Volatility (risk)
+ Average returns
+ Correlation between assets
+Visualised relationships using a correlation heatmap
 
 # Features
 - Downloads real ETF price data using yfinance
@@ -17,8 +29,17 @@ This project is a portfolio analytics tool built in Python using real ETF market
 - AGG (Bonds)
 - DBC (Commodities)
 
-# Key Insight
-The project shows how different asset classes behave relative to each other. Bonds reduce portfolio volatility, while equities are more highly correlated.
+# Key Insights
+Equities (SPY, EWU) show relatively high correlation, meaning they tend to move together.
+Bonds (AGG) show lower correlation with equities, providing diversification benefits.
+Commodities (DBC) behave differently from equities, acting as an additional diversification component.
+Overall, combining asset classes reduces portfolio volatility compared to holding a single asset type.
+
+# Output
+Correlation matrix
+Volatility estimates
+Average daily returns
+Heatmap visualization of asset relationships
 
 # Tools Used
 - Python
