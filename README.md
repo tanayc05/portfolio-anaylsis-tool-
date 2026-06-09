@@ -55,7 +55,3 @@ To understand how different asset classes behave relative to each other and how 
 - Matplotlib
 - Seaborn
 - yfinance
-- NumPy
-- Matplotlib
-- Seaborn
-- yfinance
