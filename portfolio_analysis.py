@@ -21,3 +21,5 @@ print(avg_return)
 sns.heatmap(correlation, annot=True, cmap="coolwarm")
 plt.title("ETF Correlation Heatmap")
 plt.show()
+
+plt.savefig("correlation_heatmap.png", dpi=300, bbox_inches="tight")
